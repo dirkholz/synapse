@@ -1,0 +1,33 @@
+synapse (0.2.0+bzr-2) UNRELEASED; urgency=low
+
+  * debian/control:
+   - Set zeitgeist and zeitgeist-fts-extension as Recommends.
+   - Bump libgtk2.0-dev, libglib2.0-dev and intltool requierement.
+   - Update Vcs-*.
+   - Build-depends on pkg-config.
+   - Build-depends on libappindicator-dev.
+   - Add a debug binary.
+  * debian/docs:
+   - Add upstream documentation.
+  * debian/watch
+   - Add a watch file.
+  * debian/copyright
+   - Update copyright holders and licenses.
+  * debian/rules:
+   - Pass --enable-indicator=auto to configure.
+   - Pass --fail-missing to dh_install.
+   - Call dh_strip for the dbg package.
+  * debian/synapse.install:
+   - Install all files in synapse binary.
+  * debian/synapse.1
+   - Add manpages.
+  * debian/synapse.manpages:
+   - Install the manpage.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Tue, 30 Nov 2010 21:55:53 +0100
+
+synapse (0.2.0+bzr-1) experimental; urgency=low
+
+  * Initial release.
+
+ -- Michal Hruby <michal.mhr@gmail.com>  Fri, 10 Sep 2010 14:31:29 +0200
