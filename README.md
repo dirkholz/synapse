@@ -14,12 +14,10 @@ In order to obtain and compile *synapse* from this repository, do::
 
 
 
-Original README and Repository
+Original Repository and README
 ------------------------------
 
-The original bzr repositry can be found on launchpad: https://launchpad.net/synapse-project/trunk
-
-The original bzr repository contains the following README file::
+The original bzr repositry can be found on launchpad: https://launchpad.net/synapse-project/trunk. It contains the following README file::
 
     This version of Synapse officially supports only Vala 0.14.
 
