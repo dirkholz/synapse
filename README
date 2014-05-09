@@ -1,0 +1,3 @@
+This version of Synapse officially supports only Vala 0.14.
+
+To compile, run: ./autogen.sh && make
