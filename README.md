@@ -1,3 +1,11 @@
+OUTDATED
+========
+
+!!! This personal fork is no longer updated or maintained !!! 
+
+Please go to https://code.launchpad.net/synapse-project to obtain the latest stable version of synapse. Bug fixes as contained herein are integrated in these releases for a long time now together with fixes for many other issues still present in this old repository here!
+
+
 synapse
 =======
 
